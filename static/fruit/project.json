@@ -1,0 +1,22 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "noCache" : true,
+    "id" : "gameCanvas",
+    "renderMode" : 1,
+    "engineDir":"static/fruit/frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "static/fruit/src/common.js",
+        "static/fruit/src/PictureNumber.js",
+        "static/fruit/src/resource.js",
+        "static/fruit/src/app.js",
+        "static/fruit/src/TipScene.js",
+        "static/fruit/src/test.js"
+    ]
+}
