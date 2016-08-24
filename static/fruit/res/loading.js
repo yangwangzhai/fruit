@@ -60,8 +60,8 @@
 		document.body.className = 'bodycss';
         var bgColor = document.body.style.background;
 		//document.body.style.background = "url('static/fruit/res/loading_bg.png')  no-repeat center center";
-	//	document.body.style.backgroundSize = 'cover';
-      //  document.body.style.background = "#000";
+        //	document.body.style.backgroundSize = 'cover';
+        //document.body.style.background = "#000";
 		
         var style = document.createElement("style");
         style.type = "text/css";

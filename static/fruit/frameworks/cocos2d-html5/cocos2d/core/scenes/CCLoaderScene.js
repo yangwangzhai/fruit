@@ -49,11 +49,11 @@ cc.LoaderScene = cc.Scene.extend({
 
         // bg
         var fontSize = 24, lblHeight =  -logoHeight / 2 + 100;
-        var bgLayer = self._bgLayer = new cc.Sprite(res.s_loading_bg); ;//new cc.LayerColor(cc.color(32, 32, 32, 255));
+        var bgLayer = self._bgLayer = new cc.Sprite(res.s_loading_bg); //new cc.LayerColor(cc.color(32, 32, 32, 255));
         bgLayer.setPosition(cc.visibleRect.bottom.x, cc.visibleRect.right.y);
         // bgLayer.setScale(0.65);
         // bgLayer.setRotation(90);
-       // bgLayer.setScale(0.5);
+       //bgLayer.setScale(0.5);
         self.addChild(bgLayer, 0);
 
 

@@ -19,17 +19,17 @@ body, canvas, div {
 	
    
 }
- body{ background:url('static/fruit/res/loading_bg.png') no-repeat center center;
+/* body{ background:url('static/fruit/res/loading_bg.png') no-repeat center center;
 	 background-attachment:fixed;
-	/* background-repeat:no-repeat;*/
+	*//* background-repeat:no-repeat;*//*
 	 background-size:cover;
 	 -moz-background-size:cover;
 	 -webkit-background-size:cover;
    
-}
+}*/
  .bodycss{ background:url('static/fruit/res/loading_bg.png') no-repeat center center;
 	 background-attachment:fixed;
-	/* background-repeat:no-repeat;*/
+	 background-repeat:no-repeat;
 	 background-size:cover;
 	 -moz-background-size:cover;
 	 -webkit-background-size:cover;
